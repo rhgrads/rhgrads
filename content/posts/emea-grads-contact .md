@@ -1,7 +1,7 @@
 ---
 title: "EMEA GRADS CONTACT INFO"
 date: 2018-07-21T17:51:41+01:00
-draft: true
+draft: false
 ---
 | Name        | Location           | Phone  | Email |
 | :-----: |:---:| --:|  --:|

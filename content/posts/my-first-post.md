@@ -1,7 +1,7 @@
 ---
 title: "Aidan's Test Post"
 date: 2018-07-21T17:43:41+01:00
-draft: true
+draft: false
 ---
 
 # This is a test title

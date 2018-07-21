@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Red Hat Grads</title>
+    <link>https://rhgrads.github.io/rhgrads/posts/</link>
+    <description>Recent content in Posts on Red Hat Grads</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 21 Jul 2018 17:51:41 +0100</lastBuildDate>
+    
+	<atom:link href="https://rhgrads.github.io/rhgrads/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>EMEA GRADS CONTACT INFO</title>
+      <link>https://rhgrads.github.io/rhgrads/posts/emea-grads-contact-/</link>
+      <pubDate>Sat, 21 Jul 2018 17:51:41 +0100</pubDate>
+      
+      <guid>https://rhgrads.github.io/rhgrads/posts/emea-grads-contact-/</guid>
+      <description>   Name Location Phone Email     Aidan Cardiff +44 7777 777 777 aidan@redhat.com    </description>
+    </item>
+    
+    <item>
+      <title>Aidan&#39;s Test Post</title>
+      <link>https://rhgrads.github.io/rhgrads/posts/my-first-post/</link>
+      <pubDate>Sat, 21 Jul 2018 17:43:41 +0100</pubDate>
+      
+      <guid>https://rhgrads.github.io/rhgrads/posts/my-first-post/</guid>
+      <description>This is a test title This is a secondary title I really hope I don&amp;rsquo;t need to do anything weird with authors in comments or anything, if not I&amp;rsquo;ll add it in later.
+Keep it together vim, It&amp;rsquo;s all markdown. No need to syntax highlight as if I&amp;rsquo;m typing strings. Although maybe I need an escape characted before each apostrophe? How quickly does it update on hugo?</description>
+    </item>
+    
+    <item>
+      <title>Job Postings 2018</title>
+      <link>https://rhgrads.github.io/rhgrads/posts/job-postings-2018/</link>
+      <pubDate>Sat, 21 Jul 2018 17:43:41 +0100</pubDate>
+      
+      <guid>https://rhgrads.github.io/rhgrads/posts/job-postings-2018/</guid>
+      <description>Job Postings TBA.</description>
+    </item>
+    
+    <item>
+      <title>Style Guide TBA</title>
+      <link>https://rhgrads.github.io/rhgrads/posts/style-guide/</link>
+      <pubDate>Sat, 21 Jul 2018 17:43:41 +0100</pubDate>
+      
+      <guid>https://rhgrads.github.io/rhgrads/posts/style-guide/</guid>
+      <description> This is where I&amp;rsquo;d put my style guide. if I had one </description>
+    </item>
+    
+  </channel>
+</rss>
