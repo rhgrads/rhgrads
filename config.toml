@@ -1,5 +1,5 @@
 # baseURL = "https://rhgrads.github.io/rhgrads"
-baseURL = "https://jovial-northcutt-f541b6.netlify.com"
+baseURL = "https://rhgrads.netlify.com/"
 languageCode = "en-us"
 title = "Red Hat Grads"
 theme = "docdock"
