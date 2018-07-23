@@ -3,7 +3,7 @@ title = "DocDock Theme for Hugo"
 description = ""
 +++
 
-# Hugo docDock theme
+# Hugo docDock theme - Speedtest
 [Hugo-theme-docdock {{%icon fa-github%}}](https://github.com/vjeantet/hugo-theme-docdock) is a theme for Hugo, a fast and modern static website engine written in Go. Hugo is often used for blogs, **this theme is fully designed for documentation.**
 
 This theme is a partial porting of the [Learn theme of matcornic {{%icon fa-github%}}](https://github.com/matcornic/hugo-theme-learn). and its default style "flex" comes from [facette.io](https://github.com/facette)'s documentation.
