@@ -1,4 +1,4 @@
-baseURL = "https://rhgrads.github.io/"
+baseURL = "https://rhgrads.github.io/rhgrads"
 languageCode = "en-us"
 title = "Red Hat Grads"
 theme = "docdock"
