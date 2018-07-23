@@ -22,3 +22,16 @@ Automatically published and hosted thanks to [Netlify](https://www.netlify.com/)
 Read more about [Automated HUGO deployments with Netlify](https://www.netlify.com/blog/2015/07/30/hosting-hugo-on-netlifyinsanely-fast-deploys/)
 {{% /panel %}}
 
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
