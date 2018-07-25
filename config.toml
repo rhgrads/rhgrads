@@ -1,6 +1,49 @@
 # baseURL = "https://rhgrads.github.io/rhgrads"
-baseURL = "https://rhgrads.netlify.com/"
+# baseURL = "https://rhgrads.netlify.com/"
+baseURL = "http://localhost:1313/"
 languageCode = "en-us"
 title = "Red Hat Grads"
-theme = "docdock"
+theme = "osprey"
 publishDir = "docs"
+tags = ["red hat", "jobs", "blog"]
+config = "config.toml"
+
+
+[Params]
+    tagline = "A Site for Red Hat Graduates, Current and Future"
+    author = "Aidan Cammies"
+    description = "Red Hat Graduate creating a site for recent graduates who want to do great things!"
+    logoBig = "/images/rhlogo.png"
+    logoSmall = "/images/rhlogo.png"
+    favicon = "favicon.ico"
+    opengraphImage = "/images/rhlogo.png"
+    twitter = "acammies"
+    linkedin = "cammies"
+    github = "acammies"
+    facebook = ""
+    email = "aidan@redhat.com"
+    googleTagManager = ""
+    highlightJS = true
+    copyright = false
+    credit = true
+    customCSS = false
+    cacheBustCSS = false
+    cacheBustJS = false
+    ajaxFormspree = true
+
+[[menu.main]]
+    name = "About"
+    url  = "/#about"
+    weight = 1
+[[menu.main]]
+    name = "Jobs"
+    url  = "/jobs"
+    weight = 2
+[[menu.main]]
+    name = "Posts"
+    url  = "/posts"
+    weight = 3
+[[menu.main]]
+    name = "Contact"
+    url  = "/#contact"
+    weight = 4
