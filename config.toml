@@ -1,6 +1,6 @@
 # baseURL = "https://rhgrads.github.io/rhgrads"
-# baseURL = "https://rhgrads.netlify.com/"
-baseURL = "http://localhost:1313/"
+baseURL = "https://rhgrads.netlify.com/"
+# baseURL = "http://localhost:1313/"
 languageCode = "en-us"
 title = "Red Hat Grads"
 theme = "osprey"
