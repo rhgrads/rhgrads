@@ -10,7 +10,7 @@ date: '2018-07-25T13:15:23+01:00'
 
 **Description**: Good knowledge of memes, we need to relate to the youth of today to increase the .
 
-| **Skills** | ~~**Required**~~: |
+| **Skills** | **Required**: |
 | ---------- | ----------------- |
 | I          | II                |
 | II         | L                 |
