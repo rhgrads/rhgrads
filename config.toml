@@ -11,7 +11,7 @@ config = "config.toml"
 [Params]
     tagline = "A Site for Red Hat Graduates, Current and Future"
     author = "Aidan Cammies"
-    description = "Red Hat Graduate creating a site for recent graduates who want to do great things!"
+    description = "A site for recent graduates who want to do great things!"
     logoBig = "/images/rhlogo.png"
     logoSmall = "/images/rhlogo.png"
     favicon = "/images/favicon.ico"
@@ -29,6 +29,8 @@ config = "config.toml"
     cacheBustCSS = false
     cacheBustJS = false
     ajaxFormspree = true
+    # addThis = "ra-5b5b2fb443af7dfd"
+
 
 [[menu.main]]
     name = "About"
@@ -36,13 +38,17 @@ config = "config.toml"
     weight = 1
 [[menu.main]]
     name = "Jobs"
-    url  = "/jobs"
+    url  = "/#jobs"
     weight = 2
 [[menu.main]]
     name = "Posts"
-    url  = "/posts"
+    url  = "/#posts"
     weight = 3
 [[menu.main]]
     name = "Admin"
     url  = "/admin"
     weight = 4
+# [[menu.main]]
+#     name = "Gallery"
+#     url  = "/#work"
+#     weight = 5
