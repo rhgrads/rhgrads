@@ -29,7 +29,7 @@ config = "config.toml"
     cacheBustCSS = false
     cacheBustJS = false
     ajaxFormspree = true
-    # addThis = "ra-5b5b2fb443af7dfd"
+    addThis = "ra-5b5b2fb443af7dfd"
 
 
 [[menu.main]]
