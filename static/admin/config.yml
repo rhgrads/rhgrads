@@ -3,8 +3,8 @@ backend:
   repo: rhgrads/rhgrads
   branch: master # Branch to update
 publish_mode: editorial_workflow
-media_folder: "static/images" # Media files will be stored in the repo under static/images/uploads
-public_folder: "/images" # The src attribute for uploaded media will begin with /images/uploads
+media_folder: "static/images" # Media files will be stored in the repo under static/images
+public_folder: "/images" # The src attribute for uploaded media will begin with /images
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
@@ -13,6 +13,8 @@ collections:
     slug: "{{slug}}-{{year}}-{{month}}-{{day}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Author", name: "author", widget: "string"}
+      - {label: "Job Title", name: "jobtitle", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "jobs" # Used in routes, e.g., /admin/collections/blog
@@ -22,9 +24,9 @@ collections:
     slug: "{{slug}}-{{year}}-{{month}}-{{day}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Job Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Job Starting Date", name: "startdate", widget: "datetime"}
+      - {label: "Application Closing Date", name: "closingdate", widget: "datetime"}
       - {label: "Salary", name: "salary", widget: "number"}
       - {label: "Job Description", name: "description", widget: "markdown"}
       - {label: "Experience Required", name: "experience", widget: "markdown"}
       - {label: "Recommended Skills", name: "skills", widget: "markdown"}
-      # - {label: "", name: "body", widget: "markdown"}
