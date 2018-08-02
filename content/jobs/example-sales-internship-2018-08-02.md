@@ -1,6 +1,6 @@
 ---
 title: EXAMPLE Sales Internship
-startdate: '2018-08-02'
+date: '2018-08-02'
 closingdate: '2018-08-02'
 summary: |2-
     **Job Description:** Learn and grow by partnering with a complex sales force
