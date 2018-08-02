@@ -2,7 +2,7 @@
 title: EXAMPLE Sales Internship
 date: '2018-08-02'
 closingdate: '2018-08-02'
-summary: |2-
+description: |2-
     **Job Description:** Learn and grow by partnering with a complex sales force
     of sales and technical professionals and a variety of technology partners. The
     Red Hat Europe, the Middle East, and Africa (EMEA) Independent Software Vendor
