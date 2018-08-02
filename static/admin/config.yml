@@ -26,7 +26,6 @@ collections:
       - {label: "Job Title", name: "title", widget: "string"}
       - {label: "Job Starting Date", name: "startdate", widget: "date"}
       - {label: "Application Closing Date", name: "closingdate", widget: "date"}
-      # - {label: "Salary", name: "salary", widget: "number"}
       - {label: "Job Summary", name: "summary", widget: "markdown"}
       - {label: "Primary job responsibilities", name: "responsibilities", widget: "markdown"}
       - {label: "Required Skills", name: "skills", widget: "markdown"}
