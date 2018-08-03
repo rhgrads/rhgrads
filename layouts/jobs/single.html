@@ -1,3 +1,4 @@
+Posted {{ .Date.Format (.Site.Params.dateform | default "January 2, 2006") }} by {{ .Params.author }} - {{ .Params.jobtitle }} 
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
   {{ partial "header.html" . }}
@@ -8,13 +9,26 @@
       <section class="container">
           <section class="content">
               <h1>{{ if .Params.heading }} {{ .Params.heading }} {{ else }} {{ .Title }} {{ end }}</h1>
-
               <div class="sub-header">
-                  {{ .Date.Format (.Site.Params.dateform | default "January 2, 2006") }}
+                    Posted {{ dateFormat "Jan 2, 2006" .Params.date }} -
+                    Applications close {{ .Params.expiryDate }}
               </div>
-
+                
               <article class="entry-content">
-                  {{ .Content }}
+                
+
+                <h3>Link to Job</h3>
+                <!-- <a href="https://global-redhat.icims.com/jobs/63555/sales-internship/job?hub=7">Job posting here</a> -->
+                <h4><a href={{.Params.joblink}} target="_blank">Click here to Apply at Red Hat Jobs</a></h4>
+                <h3>Job Description</h3>
+                  {{ markdownify .Params.jobdescription }}
+              
+              <h3>Primary Job Responsibilities</h3>
+                {{ markdownify .Params.responsibilities }}
+              
+              <h3>Required Skills</h3>
+                {{ markdownify .Params.skills }}
+              
               </article>
 
               <div class="pagination">

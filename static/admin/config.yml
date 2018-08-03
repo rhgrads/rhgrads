@@ -24,9 +24,9 @@ collections:
     slug: "{{slug}}-{{year}}-{{month}}-{{day}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Job Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "date"}
-      - {label: "Job Starting Date", name: "startdate", widget: "date"}
-      - {label: "Application Closing Date", name: "closingdate", widget: "date"}
-      - {label: "Job Description", name: "body", widget: "markdown"}
-      - {label: "Primary job responsibilities", name: "description", widget: "markdown"}
-      # - {label: "Required Skills", name: "skills", widget: "markdown"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Application Closing Date", name: "expiryDate", widget: "datetime"}
+      - {label: "Job Posting URL", name: "joblink", widget: "string"}
+      - {label: "Job Description", name: "jobdescription", widget: "markdown"}
+      - {label: "Primary job responsibilities", name: "responsibilities", widget: "markdown"}
+      - {label: "Required Skills", name: "skills", widget: "markdown"}

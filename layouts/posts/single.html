@@ -10,8 +10,8 @@
               <h1>{{ if .Params.heading }} {{ .Params.heading }} {{ else }} {{ .Title }} {{ end }}</h1>
 
               <div class="sub-header">
-                  {{ .Date.Format (.Site.Params.dateform | default "January 2, 2006") }}
-              </div>
+                  Posted {{ .Date.Format (.Site.Params.dateform | default "January 2, 2006") }} by {{ .Params.author }} - {{ .Params.jobtitle }} 
+                </div>
 
               <article class="entry-content">
                   {{ .Content }}
