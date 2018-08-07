@@ -1,4 +1,7 @@
 # rhgrads
+
+[![Join the chat at https://gitter.im/rhgrad/Lobby](https://badges.gitter.im/rhgrad/Lobby.svg)](https://gitter.im/rhgrad/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 A static site on all things Graduate at Red Hat!
 
 Head to [https://rhgrads.netlify.com/admin/](https://rhgrads.netlify.com/admin/) to contribute blog posts and job postings.
