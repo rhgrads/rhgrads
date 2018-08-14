@@ -4,7 +4,9 @@
 
 A static site on all things Graduate at Red Hat!
 
-Head to [https://rhgrads.netlify.com/admin/](https://rhgrads.netlify.com/admin/) to contribute blog posts and job postings.
-After creating your post, click save and set the status to "in review" or "ready". A moderator will then check to see all's well and will then merge your post!
+Head to [https://rhgrads.netlify.com/admin/](https://rhgrads.netlify.com/admin/) to create blog posts and job postings.
+After creating your post, click save and set the status to "in review" or "ready". A moderator will then check to see all's well and merge your post!
 
-All CI/CD is currently done through Netlify and NetlifyCMS.
+
+This site is created with Hugo, thanks to @tomanistor for the [Osprey theme](https://themes.gohugo.io/osprey/) 
+All CI/CD is currently done through Netlify and content generation with NetlifyCMS.
