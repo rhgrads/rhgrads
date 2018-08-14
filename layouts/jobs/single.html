@@ -10,8 +10,9 @@ Posted {{ .Date.Format (.Site.Params.dateform | default "January 2, 2006") }} by
           <section class="content">
               <h1>{{ if .Params.heading }} {{ .Params.heading }} {{ else }} {{ .Title }} {{ end }}</h1>
               <div class="sub-header">
-                    Posted {{ dateFormat "Jan 2, 2006" .Params.date }} -
-                    Applications close {{ .Params.expiryDate }}
+                    Posted: {{ dateFormat "Jan 2, 2006" .Params.date }}. 
+                    Applications close: {{ .Params.expiryDate }} 
+                    Location: {{ .Params.joblocation }}
               </div>
                 
               <article class="entry-content">

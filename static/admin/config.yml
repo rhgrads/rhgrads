@@ -26,6 +26,7 @@ collections:
       - {label: "Job Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Application Closing Date", name: "expiryDate", widget: "datetime"}
+      - {label: "Location", name: "joblocation", widget: "string"}
       - {label: "Job Posting URL", name: "joblink", widget: "string"}
       - {label: "Job Description", name: "jobdescription", widget: "markdown"}
       - {label: "Primary job responsibilities", name: "responsibilities", widget: "markdown"}

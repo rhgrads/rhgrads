@@ -1,8 +1,9 @@
 ---
 title: EXAMPLE Sales Internship
 date: '2018-08-02 00:00:00 +0000 UTC'
-expiryDate: '2018-08-09 00:00:00 +0000 UTC'
+expiryDate: '2018-08-29 00:00:00 +0000 UTC'
 joblink: https://global-redhat.icims.com/jobs/63555/sales-internship/job?hub=7
+joblocation: Example Location
 jobdescription: |2-
     Learn and grow by partnering with a complex sales force
     of sales and technical professionals and a variety of technology partners. The
