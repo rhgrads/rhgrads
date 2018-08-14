@@ -1,5 +1,5 @@
 ---
-title: Blog post number 1 with pictures
+title: Test Blog 1
 author: Aidan Cammies
 jobtitle: Associate Consultant
 date: '2018-07-27T16:35:14+01:00'
