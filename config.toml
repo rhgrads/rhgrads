@@ -4,14 +4,14 @@ title = "Red Hat Grads"
 theme = "osprey"
 publishDir = "docs"
 # googleAnalytics = ""
-tags = ["red hat", "jobs", "blog"]
+tags = ["red hat", "jobs", "blog", "Graduate", "Intern", "Open Source", "Programming", "Developer"]
 config = "config.toml"
 
 
 [Params]
-    tagline = "A Site for Red Hat Graduates, Current and Future"
+    tagline = "Life at Red Hat for Graduates and Interns."
     author = "Aidan Cammies"
-    description = "A site for recent graduates who want to do great things!"
+    description = "A site for recent graduates and interns who want to do great things!"
     logoBig = "/images/rhlogo.png"
     logoSmall = "/images/rhlogo.png"
     favicon = "/images/favicon.ico"
@@ -28,7 +28,7 @@ config = "config.toml"
     customCSS = true
     cacheBustCSS = false
     cacheBustJS = false
-    ajaxFormspree = true
+    ajaxFormspree = false
     addThis = "ra-5b5b2fb443af7dfd"
 
 
@@ -37,12 +37,12 @@ config = "config.toml"
     url  = "/#about"
     weight = 1
 [[menu.main]]
-    name = "Jobs"
-    url  = "/#jobs"
-    weight = 2
-[[menu.main]]
     name = "Posts"
     url  = "/#posts"
+    weight = 2
+[[menu.main]]
+    name = "Jobs"
+    url  = "/#jobs"
     weight = 3
 [[menu.main]]
     name = "Admin"
