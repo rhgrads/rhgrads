@@ -6,6 +6,8 @@ author: Tom Page
 jobtitle: Associate Consultant - Red Hat
 date: '2019-10-25'
 ---
+<img src="/images/taylor-vick-m5tzztfcofs-unsplash.jpg" width="100%"></img>
+
 **Delivering virtual machines at scale is a common issue for many ops teams and having the ability to take an ISO and form a ‘Golden Image’ which can subsequently be configured in an automated way is often seen as a goal state. By using Packer and Ansible, with orchestration using Jenkins, it is possible to reach this level of automation.**
 
 Over the past few months I have been working with a Telco company who have this fairly common use case of requiring template VMs to be created and then be able to specialise each machine depending on its application. This blog will follow the journey of deploying a service of VMs in vSphere using Packer, Ansible and Jenkins and detail some of the obstacles we encountered on the way.
