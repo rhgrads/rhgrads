@@ -4,7 +4,7 @@ title: >-
   delivery
 author: Tom Page
 jobtitle: Associate Consultant - Red Hat
-date: '2019-10-28'
+date: '2019-10-25'
 ---
 **Delivering virtual machines at scale is a common issue for many ops teams and having the ability to take an ISO and form a ‘Golden Image’ which can subsequently be configured in an automated way is often seen as a goal state. By using Packer and Ansible, with orchestration using Jenkins, it is possible to reach this level of automation.**
 
