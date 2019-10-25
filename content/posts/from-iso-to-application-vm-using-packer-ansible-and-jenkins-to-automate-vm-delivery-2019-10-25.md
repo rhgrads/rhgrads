@@ -6,8 +6,6 @@ author: Tom Page
 jobtitle: Associate Consultant - Red Hat
 date: '2019-10-25'
 ---
-<img src="/images/taylor-vick-m5tzztfcofs-unsplash.jpg" width="100%"></img>
-
 **Delivering virtual machines at scale is a common issue for many ops teams and having the ability to take an ISO and form a ‘Golden Image’ which can subsequently be configured in an automated way is often seen as a goal state. By using Packer and Ansible, with orchestration using Jenkins, it is possible to reach this level of automation.**
 
 Over the past few months I have been working with a Telco company who have this fairly common use case of requiring template VMs to be created and then be able to specialise each machine depending on its application. This blog will follow the journey of deploying a service of VMs in vSphere using Packer, Ansible and Jenkins and detail some of the obstacles we encountered on the way.
@@ -21,7 +19,7 @@ Packer is a tool for automating the build of virtual machines created by HashiCo
 - **Provisioners** - which do some configuration against the machine created. Typical idea may be patching kernels, installing packages or creating users. This is optional.
 - **Post-processors** - which are entirely optional and are typically used to upload artifacts or turn the VM into a template.
 
-### Ansible
+### Ansible
 As a Red Hatter there was really only one choice for the automation engine to use in order to complete these tasks. First and foremost, Ansible is simple to understand, easy to use and, for the most part, is well documented. We deployed Ansible Tower in the environment (using our end-to-end method for deploying VMs, of course, as [dogfooding](https://en.wikipedia.org/wiki/Eating_your_own_dog_food) is important) in order to further create an easy to use, ‘press play’ solution for automating the configuration of machines. Ansible Tower can be used as an organisation’s ‘hub’ for automation and adds to the traceability and compliance of machines in the ecosystem.
 
 ### Jenkins
@@ -82,7 +80,7 @@ This will go ahead and create our VM and place it in the desired location, give 
 ### Step 2: Configuring VM
 Now we have a shiny new VM we need to actually be able to use it. Most organisations will have some form of domain in which they will enrol all of their machines in order to be able to target a machine by its hostname and be able to log into it. For a Linux machine this requires a number of steps to be undertaken. Firstly the hostname must be updated to what we set the hostname as in vmware (this does not happen automatically in Linux), we then need to configure ntp by setting the ntp server to the domain controller. Finally we can join to AD by setting up Kerberos, sssd and then using the adcli package to `adcli join` against the domain. The role used to join to AD for linux can be found [here](https://github.com/Tompage1994/ansible-role-linux-ad-manage). 
 
-> Windows AD join is actually more simple as you can use the `win_domain_membership` module and then simply reboot the machine. Makes me wonder why I’m not a Windows developer...
+**_Windows AD join is actually more simple as you can use the `win_domain_membership` module and then simply reboot the machine. Makes me wonder why I’m not a Windows developer..._**
 
 ### Step 3: Deploying Applications
 If we have got to this stage, the final section should be nice and easy. If you know how to write Ansible, and I assume you do if you got this far, then you should be able to deploy an application on the box. Simply target against the box as you did for step 2 and away you go!
