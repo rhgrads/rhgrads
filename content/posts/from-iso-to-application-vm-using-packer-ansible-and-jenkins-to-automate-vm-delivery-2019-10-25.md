@@ -17,8 +17,11 @@ As a disclaimer, this is not the only way to do this, and is probably not the be
 ## What are the tools?
 ### Packer
 Packer is a tool for automating the build of virtual machines created by HashiCorp. It sells itself as being quick and easy to use and supports the creation of VMs on a number of platforms. For our use case we have targeted vSphere as this was where the vast majority of our customer’s infrastructure sat. A Packer build is defined by a template which has three key sections: 
+
 - **Builders** - which define the target platform, any credentials for said platform, the base ISO and any additional files and configuration needed for the base VM.
+
 - **Provisioners** - which do some configuration against the machine created. Typical idea may be patching kernels, installing packages or creating users. This is optional.
+
 - **Post-processors** - which are entirely optional and are typically used to upload artifacts or turn the VM into a template.
 
 ### Ansible
